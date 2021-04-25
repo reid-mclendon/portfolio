@@ -1,7 +1,17 @@
 @tailwind base;
 
+@font-face {
+  font-family: 'Roboto Mono';
+  src: url(../fonts/RobotoMono-VariableFont_wght.ttf);
+}
+
+body {
+  font-family: 'Roboto Mono';
+}
+
 a {
   @apply text-primary;
+  font-weight: 400;
 }
 a:hover {
   @apply text-primary-darker;
