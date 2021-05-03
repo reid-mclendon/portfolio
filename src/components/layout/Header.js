@@ -4,21 +4,18 @@ import LogoIcon from '../../svg/LogoIcon';
 import Button from '../Button';
 
 const Header = () => (
-  <header className="z-10 sticky top-0 bg-white">
-    <div className="container flex flex-col sm:flex-row justify-between items-center mx-auto py-4 px-8">
+  <header className="z-10  top-0 bg-white">
+    <div className="border-b-2 border-black container flex flex-col justify-between items-center mx-auto pt-5 pb-5 sm:flex-row sm:px-8 sm:pt-8 sm:pb-8">
       <div className="flex items-center">
         <div className="flex justify-center w-12 md:justify-start">
           <LogoIcon />
         </div>
       </div>
-      <div className="flex mt-4 sm:mt-0">
-        <AnchorLink className="px-4" href="#features">
-          resume
-        </AnchorLink>
-        <AnchorLink className="px-4" href="#services">
+      <div className="flex space-x-8 mt-4 sm:mt-0">
+        <AnchorLink href="#work">
           work
         </AnchorLink>
-        <AnchorLink className="px-4" href="#stats">
+        <AnchorLink href="#contact">
           contact
         </AnchorLink>
       </div>
