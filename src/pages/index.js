@@ -32,7 +32,6 @@ export default () => (
       <div className="container mx-auto px-8 border-b-2 border-black pt-8 pb-8 md:pt-16 md:pb-16 lg:pt-32 lg:pb-32">
         <h2 className="text-3xl rounded text-white bg-primary flex justify-center items-center bg-gray-200 font-semibold text-center py-4 mb-8 sm:text-4xl ">Latest Work</h2>
             <div className="flex "> 
-            <StaticImage className="hidden lg:flex max-w-md border-2 border-black rounded mr-8" src="../img/tts-chat.PNG"/>
             <div className="">
                   <p className="text-3xl font-semibold">tts.chat</p>
                   <div className="flex items-center text-xs mt-4 mb-4 flex-wrap space-x-2 ">
